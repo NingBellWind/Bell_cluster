@@ -1,1 +1,7 @@
 # Bell_cluster
+
+ The project of the Bell Cluster consists of two main parts, i.e., the research cluster (or the Hadoop cluster) and the teaching cluster. The former mainly facilitates the deployment of bigdata-based distributed applications and their experiments while the latter aims to serve the class teaching purpose.
+ 
+ The research cluster consists of 16 nodes (i.e., a master node with an 8TB HDD and 15 slave nodes each of which is equipped with a 2TB SSD). Each node is equipped with 2 *  Intel® Xeon® X5650 (6 cores), 48GB RAM, 3 embedded NIC ports , i.e., a 2Gbps ports and a 10Gbps IB port, each of which is connected to a specific intranet, respectively, including a public intranet (1Gbps) that can access the internet, a private intranet (100Mbps) for the cluster management, and a high-speed InfiniBand intranet (10Gbps) for Hadoop/Spark inter-node communication. Right now, the research cluster has been set for further test. 
+ 
+ The teaching cluster consists of 24 nodes, each of which has almost the same hardware equipment with the nodes of the research cluster except that all the teaching-cluster nodes have 1TB SSD storage and two of them are equipped with 2 * Intel® Xeon® Processor E5-2670 v3  (12 cores) and 64GB RAM. The teaching cluster is in the middle of construction by virtualizing these physical nodes and provide online computation and storage service for class teaching. Some nodes have been used for experimental verification.
